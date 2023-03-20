@@ -5,14 +5,13 @@
 
 * {
   font-family: 'FT88', monospace;
-  color: #ffffff;
-  background-color: #222222;
+  color: #000;
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   font-family: sans-serif;
-  margin: 20px;
   padding: 0;
 }
 
@@ -36,18 +35,8 @@ h4 {
   font-size: 16px;
 }
 
-h5 {
-  margin-top: 0;
-  font-size: 14px;
-}
-
-h6 {
-  margin-top: 0;
-  font-size: 12px;
-}
-
 button {
-  background-color: none; /* Green */
+  background-color: none; 
   border: 1px solid #ffffff;
   cursor: pointer;
   text-align: center;
@@ -61,19 +50,38 @@ button {
 }
 
 .square {
-  height: 150px;
+  /* height: 150px; */
   width: 150px;
-  margin: 5%;
+  margin: 5% auto;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  /* flex-direction: column; */
   cursor: pointer;
 }
 
+.square p {
+  margin: 1.5%;
+}
+
+.main {
+  width: 300px;
+  margin: 5% auto;
+  text-align: center;
+  display: block;
+}
+
 .record_container {
-  width: 50%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  float: left;
+  left: 0;
+  width: 25%;
+  background-color: #ececec;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.main_page {
+  float: right;
+  width: 70%;
+  /* background: #ececec; */
+  height: 100vh;
 }
