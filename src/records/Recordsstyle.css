@@ -1,0 +1,22 @@
+.square {
+    height: 150px;
+    width: 150px;
+    margin: 5%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.square p:hover {
+    text-decoration: underline;
+}
+
+.record_container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}

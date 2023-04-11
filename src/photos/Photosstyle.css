@@ -1,0 +1,22 @@
+
+
+.stack_container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.stack_container img {
+    width: 300px;
+}
+
+.stack {
+    cursor: pointer;
+}
+
+.stack p:hover {
+    text-decoration: underline;
+}
