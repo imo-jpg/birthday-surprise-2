@@ -39,8 +39,8 @@ export const records = [
         id: 3,
         title: "Heroes",
         artist: "David Bowie",
-        message: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-        sender: "Nana",
+        message: "Happy Birthday, \n and congratulations on climbing another rung on the ladder of wisdom!!! I hope you have lots of exciting activities planned along with tasty (but weird) foods to celebrate. I know you know this, but I’ll say it again anyway. Aside from my parents, you are the mentor I most look up to. In the way I conduct research, how I interacted with my students back at Indianapolis, and even how I approach challenges and setbacks, I have been molded by your influence. Teaching that future-thinking course together was one of my favorite parts of college, and our covid projects were exciting and a lot of fun to undertake; they helped keep me sane through Teach for America (oh and get me into grad school!). I’m excited to continue fleshing them out to finally get to the story we really want to share with the world. :) Per Imogen and Graham’s request, I also want to share a song. The one that came to mind first was Heroes by David Bowie. Please don’t interpret that in any weird sort of romantic way because of the lyrics—it’s just a great song, and you were the first person who showed it to me. Oh, and since their new album, 10,000 Gecs came out, I’ve gotta share a song from 100 Gecs. One of the more popular songs from that album, Dumbest Girl Alive, has some interesting sounds; it’s quite a different vibe from their earlier work. Give it a listen! If you like it, then welcome to the hyper-pop fan club, and if you hate it, please blame your children for soliciting a questionable source for recommendations. I can’t wait to hang out in a few weeks! Until then, enjoy the beautiful spring!",
+        sender: "Calvin Isch",
         source: Heroes,
         alt: "a pixel art rendition of the album cover for Heroes by David Bowie"
     },
@@ -57,7 +57,7 @@ export const records = [
         id: 5,
         title: "Save it for Later",
         artist: "English Beat",
-        message: "Happy birthday, Peter!",
+        message: "I feel truly blessed to have Peter as a best friend.  It's extremely rare to find somebody as brilliant as Peter, or as kind, and the probability of their combination is, alas, far less than the product of their marginals.  And yet Peter somehow defies the odds and has a truly great head powered by a truly great heart.  Thanks, Peter, for always being there for all of us.",
         sender: "Rob",
         source: Save,
         alt: "a pixel art rendition of the album cover for Save it for Later by the English Beat"

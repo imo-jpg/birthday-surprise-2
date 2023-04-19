@@ -5,14 +5,14 @@ import "./Individualstyle.css";
 
 
 
-export default function Individual({onClick}) {
+export default function Individual() {
     const { state } = useLocation();
     const {record} = state;
 
     const navigate = useNavigate();
 
     function handleClick() {
-      navigate("/records"); 
+      navigate("/records", {state: {recordId: record.id}}); 
     }
 
   return (

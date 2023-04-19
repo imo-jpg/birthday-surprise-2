@@ -1,10 +1,6 @@
 .square {
-    height: 150px;
-    width: 150px;
+    width: 200px;
     margin: 5%;
-    /* text-align: center; */
-    display: flex;
-    flex-direction: column;
     cursor: pointer;
 }
 
@@ -12,11 +8,17 @@
     text-decoration: underline;
 }
 
+.square img {
+    width: 150px;
+    height: 150px;
+}
+
 .record_container {
-    width: 50%;
+    width: 75%;
     margin: auto;
     display: flex;
+    /* flex-direction: column; */
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
 }

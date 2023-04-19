@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "./Photosstyle.css"; 
 
 
-function Stack({ background, sender, onStackClick }) {
+function Stack({ background, onStackClick }) {
   return (
     <div className="stack" onClick={onStackClick} >
         <img src={background}/>
@@ -25,7 +25,7 @@ export default function Photos() {
     }
   
     const photo_stacks = stacks.map((stack) => 
-        <Stack key={stack.id} sender={stack.sender} background={stack.source} onStackClick={() => handleClick(stack)} />
+        <Stack key={stack.id} sender={stack.sender} background={stack.photos[0].source} onStackClick={() => handleClick(stack)} />
     )
 
     return(
