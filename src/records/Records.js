@@ -4,13 +4,13 @@ import { useLocation, useNavigate } from "react-router-dom";
 import "./Recordsstyle.css"; 
 
 
-function Square({ background, title, alt, recordkey, onSquareClick }) {
+function Square({ background, title, recordkey, photos, onSquareClick }) {
 
 
   return (
     <div className="square" onClick={onSquareClick} >
       {/* <img src={records[recordkey].source}/> */}
-        <img src={background} alt={alt}/>
+        <img src={background}/>
         <p>&#62; {title}</p>
         {/* <p>&#62; flip this record over</p> */}
 
@@ -43,7 +43,7 @@ export default function Records() {
 
 
   const record_squares = records.map((record) => 
-      <Square key={record.id} background={record.source} alt={record.alt} title = {record.title} onSquareClick={() => handleClick(record)} />
+      <Square key={record.id} photos={record.photos} background={record.source} title = {record.title} onSquareClick={() => handleClick(record)} />
   )
 
   // useEffect(() => {

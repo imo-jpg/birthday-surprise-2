@@ -1,5 +1,20 @@
 .individual {
-    text-align: center;
     margin: auto;
-    /* width: 500px; */
+    width: 750px;
+}
+
+.one_stack_container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.one_stack_container img {
+    margin: 5px;
+    height: 450px;
 }

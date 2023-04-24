@@ -31,7 +31,7 @@ export default function OneStack() {
   return(
     <div className="page">
       <div className="introtext">
-        <h3>{stack.message}</h3>
+        <p style={{whiteSpace: "pre-wrap"}}>{stack.message}</p>
         <p>--{stack.sender}</p>
         <button onClick={() => goBack()}>&#62; put this stack back in the pile</button> 
       </div>
