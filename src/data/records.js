@@ -1,6 +1,6 @@
 import Heroes from './heroes.png';
 import Gangs from './Gangs.svg';
-import Houses from './Houses of the Holy.svg';
+import Houses from './houses.png';
 import Here from './Here Comes the Flood.svg';
 import Ga from './Ga Ga Ga Ga Ga.svg';
 import Save from './save_it_for_later.png';
@@ -24,7 +24,9 @@ import Stevie from './stevie.png';
 import Maple from './maplerag.png';
 import Captain from './captain.png';
 import Beatles from './beatles.png';
-
+import TV from './nina.png';
+import Kitty from './kitty.png';
+import Electric from './electric.png';
 
 import Graham1 from './pictures/Graham1.jpeg';
 import Graham2 from './pictures/Graham2.jpeg';
@@ -98,14 +100,17 @@ import Ben3 from './pictures/Ben3.jpg';
 import Ben4 from './pictures/Ben4.jpg';
 import Ben5 from './pictures/Ben5.jpg';
 
+import Lael1 from './pictures/Lael1.jpeg';
+import Lael2 from './pictures/Lael2.jpeg';
+
 
 export const records = [
     {
         id: 0,
         title: "The Daily Mail",
         artist: "Radiohead",
-        message: "Happy birthday, Dad!",
-        sender: "Graham",
+        message: "Hey Dad, wishing you lots of love on the big six-zero! I can't count the number of great bands you've introduced me to, from the Shins way back in 2007 to Do Nothing all these years later. And music ties together so many of my happy memories of you, whether that's jamming out on LZAD or coming back from tae-kwon-do to hear some ethereally haunting classical music on the radio. I hope hearing all these songs brings back some happy memories of your own! Thanks for listening to my hours of D&D campaign prep, helping me through every step of my academic journey, and being an all-around great dad. Rock on!",
+        sender: "Love, \n Graham",
         source: Daily,
         photos: [
             {
@@ -498,7 +503,7 @@ export const records = [
         id: 21,
         title: "Maple Leaf Rag",
         artist: "Scott Joplin",
-        message: "",
+        message: "Happy Birthday big brother. Even though I'm taller.",
         sender: "Matt",
         source: Maple,
         photos: [
@@ -541,5 +546,47 @@ export const records = [
                 source: Nana4
             }
         ]
-    }
+    },
+    {
+        id: 23,
+        title: "TV Glotzer",
+        artist: "Nina Hagen",
+        message: `Dear Peter, I picked 'TV Glotzer' (Engl.: TV gazer) by Nina Hagen as a birthday song for you. Released in 1978, it may be the first reference of "choice overload" in popular culture (at least the first that I'm aware of). As we both know, the effect is spurious, but many people assume it's real. Nina Hagen articulates that intuition in minute 1:03 (youtube video, 1:18 on Spotify) where she sings "Ich kann mich gar nicht entscheiden, ist alles so schön bunt hier". Besides the lyrics, I think the song is also a nice fit because it's from Germany and Nina Hagen is originally from Berlin but later had a career in the US. Last but not least, Nina Hagen continues to be a very creative, energetic, and fun person, which I think suits you well. So I hope you will enjoy the song at your 60th birthday - punk never dies!`,
+        sender: "Benjamin",
+        source: TV
+    },
+    {
+        id: 24,
+        title: "Kitty",
+        artist: "The Presidents of the United States of America",
+        message: `Happy birthday!!! I have so many happy memories from staying in Bloomington and sitting on the couch listening to all different kinds of music that were new to me. This song in particular still gets stuck in my head sometimes and makes me thing of you guys. I hope you have a wonderful birthday!`,
+        sender: "Ali",
+        source: Kitty
+    },
+    {
+        id: 25,
+        title: "Electric Counterpoint: III. Fast",
+        artist: "Steve Reich",
+        message: `Dear Peter, Over the years we have had countless meals together, including returning to Bejte-Ethiopia nearly every summer.  I have fond memories of our wide-ranging discussions, from octopus intelligence to the wonders of Ultraman. Strangely, I don't think we ever discussed music. Maybe we did, but I can't recall; I’m fast approaching 60 too. Recently, I discovered Steve Reich. I expect you know his work, but if not, I hope you find his music as transfixing as I do. When we next share a meal, I’ll be sure to ask you about what you’ve been listening to. Wishing you all the best as you pass into the next decade.`,
+        sender: "Lael",
+        source: Electric,
+        photos: [
+            {
+                id: 1,
+                source: Lael1
+            },
+            {
+                id: 2,
+                source: Lael2
+            }
+        ]
+    },
+    {
+        id: 26,
+        title: "Always Look on the Bright Side of Life",
+        artist: "Monty Python",
+        message: "",
+        sender: "Ehren",
+        source: Life
+    },
 ]

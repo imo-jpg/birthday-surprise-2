@@ -5,6 +5,8 @@ import Individual from "../individual/Individual";
 import Records from "../records/Records";
 import Photos from "../photos/Photos";
 import OneStack from "../stack/OneStack";
+import Messages from "../messages/Messages";
+
 
 
 
@@ -17,6 +19,7 @@ function AppRouting() {
             <Route path="/records" element={<Records />} />
             <Route path="/photos" element={<Photos />} />
             <Route path="/stack" element={<OneStack />} />
+            <Route path="/messages" element={<Messages />} />
         </Routes>
     )
 }

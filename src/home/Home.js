@@ -18,6 +18,14 @@ function Photos({onOptionClick}) {
   );
 }
 
+function Messages({onOptionClick}) {
+  return (
+    <h3 className="option" onClick={onOptionClick}>
+        &#62; Pick up the card
+    </h3>
+  );
+}
+
 export default function Home() {
   const navigate = useNavigate();
 
@@ -30,13 +38,14 @@ export default function Home() {
       <h3>
         You're in a room.
         Warm afternoon light comes in through a window looking out onto a garden of wildflowers.
-        To your left is a cabinet. On top of the cabinet you can see a pile of photographs. 
+        To your left is a cabinet. On top of the cabinet you can see a pile of photographs and a card. 
         Next to the cabinet is a box of records. 
         What would you like to do?
       </h3>
       <div className="options">
         <Records  onOptionClick={() => handleClick("/records")}/>
         <Photos onOptionClick={() => handleClick("/photos")}/>
+        <Messages onOptionClick={() => handleClick("/messages")}/>
       </div>
   </div>
   );

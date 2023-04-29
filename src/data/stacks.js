@@ -28,6 +28,14 @@ import Dodah7 from './pictures/Dodah7.jpeg';
 import SamC1 from './pictures/SamC1.JPG';
 import SamC2 from './pictures/SamC2.jpg';
 
+import Andreas1 from './pictures/Andreas1.jpeg';
+import Andreas2 from './pictures/Andreas2.jpeg';
+import Andreas3 from './pictures/Andreas3.jpeg';
+import Andreas4 from './pictures/Andreas4.jpeg';
+import Andreas5 from './pictures/Andreas5.jpeg';
+import Andreas6 from './pictures/Andreas6.jpeg';
+
+import Julia1 from './pictures/Julia1.png';
 
 
 export const stacks = [
@@ -67,21 +75,6 @@ export const stacks = [
         photos: [
             {
                 id: 1,
-                source: Skyler1
-            },
-            { 
-                id: 2,
-                source: Skyler2
-            }
-        ],   
-        message: "Happy Birthday Peter! From Jena, Germany to the Banana Tree Lab at IU we've had some wonderful experiences together! I can't thank you enough for your friendship, advice, and always chil attitude in the face of life stressors. Looking forward to the next time we get to spend time together in person, you and the family are always welcome in Colorado! ",
-        sender: "Skyler"
-    },
-    {
-        id: 2,
-        photos: [
-            {
-                id: 1,
                 source: LynnM1
             },
             { 
@@ -91,6 +84,21 @@ export const stacks = [
         ],   
         message: "",
         sender: "Lynn McKenzie"
+    },
+    {
+        id: 2,
+        photos: [
+            {
+                id: 1,
+                source: Skyler1
+            },
+            { 
+                id: 2,
+                source: Skyler2
+            }
+        ],   
+        message: "Happy Birthday Peter! From Jena, Germany to the Banana Tree Lab at IU we've had some wonderful experiences together! I can't thank you enough for your friendship, advice, and always chil attitude in the face of life stressors. Looking forward to the next time we get to spend time together in person, you and the family are always welcome in Colorado! ",
+        sender: "Skyler"
     },
     {
         id: 3,
@@ -127,6 +135,21 @@ export const stacks = [
         photos: [
             {
                 id: 1,
+                source: SamC1
+            },
+            {
+                id: 2,
+                source: SamC2
+            }
+        ],   
+        message: "60 is the smallest number which is the product of a Pythagorean triple (3,4,5). Peter Todd is the product of 60 years of music, science, extremely strange foods, several states, countries,and other wonderful properties. On this most mathematical of occasions, wishing you a very happy 60th birthday! We are so happy to have you in our lives. The world is truly a better place for having you in it. Today we're thinking of you Peter--never change! :)",
+        sender: "Sam Cohen and Matt Caplan"
+    },
+    {
+        id: 6,
+        photos: [
+            {
+                id: 1,
                 source: Dodah1
             },
             {
@@ -158,18 +181,45 @@ export const stacks = [
         sender: "Dodah"
     },
     {
-        id: 6,
+        id: 7,
         photos: [
             {
                 id: 1,
-                source: SamC1
+                source: Andreas1
+            },
+            { 
+                id: 2,
+                source: Andreas2
+            },
+            { 
+                id: 3,
+                source: Andreas3
             },
             {
-                id: 2,
-                source: SamC2
+                id: 4,
+                source: Andreas4
+            },
+            { 
+                id: 5,
+                source: Andreas5
+            },
+            { 
+                id: 6,
+                source: Andreas6
             }
         ],   
-        message: "60 is the smallest number which is the product of a Pythagorean triple (3,4,5). Peter Todd is the product of 60 years of music, science, extremely strange foods, several states, countries,and other wonderful properties. On this most mathematical of occasions, wishing you a very happy 60th birthday! We are so happy to have you in our lives. The world is truly a better place for having you in it. Today we're thinking of you Peter--never change! :)",
-        sender: "Sam Cohen and Matt Caplan"
+        message: "Happy birthday, Peter!",
+        sender: `Andreas`,
     },
+    {
+        id: 8,
+        photos: [
+            {
+                id: 1,
+                source: Julia1
+            }
+        ],   
+        message: "",
+        sender: `Julia`,
+    }
 ]
