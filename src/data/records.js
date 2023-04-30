@@ -598,7 +598,7 @@ export const records = [
         artist: "Goddess of Bagpipes",
         message: "",
         sender: "Ann",
-        source: Life,
+        source: Dont,
         photos: [
             {
                 id: 1,
