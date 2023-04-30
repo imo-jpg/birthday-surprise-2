@@ -27,6 +27,7 @@ import Beatles from './beatles.png';
 import TV from './nina.png';
 import Kitty from './kitty.png';
 import Electric from './electric.png';
+import Dont from './dont.png';
 
 import Graham1 from './pictures/Graham1.jpeg';
 import Graham2 from './pictures/Graham2.jpeg';
@@ -102,6 +103,8 @@ import Ben5 from './pictures/Ben5.jpg';
 
 import Lael1 from './pictures/Lael1.jpeg';
 import Lael2 from './pictures/Lael2.jpeg';
+
+import Ann1 from './pictures/Ann1.jpg';
 
 
 export const records = [
@@ -589,4 +592,18 @@ export const records = [
         sender: "Ehren",
         source: Life
     },
+    {
+        id: 27,
+        title: "Don't Stop Believing Bagpipes",
+        artist: "Goddess of Bagpipes",
+        message: "",
+        sender: "Ann",
+        source: Life,
+        photos: [
+            {
+                id: 1,
+                source: Ann1
+            }
+        ]
+    }
 ]
