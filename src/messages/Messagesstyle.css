@@ -1,8 +1,9 @@
 .card {
-    width: 600px;
+    width: 100%;
     margin: auto;
 }
 
 .messages {
-    width: 100%;
+    margin: auto;
+    width: 75%;
 }

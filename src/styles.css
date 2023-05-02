@@ -51,7 +51,12 @@ button:hover {
   text-decoration: underline;
 }
 
+.page, .home {
+  margin: auto;
+  width: 65%;
+}
+
 .introtext {
-  width: 600px;
+  width: 100%;
   margin: auto;
 }
